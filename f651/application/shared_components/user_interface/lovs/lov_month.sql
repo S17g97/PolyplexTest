@@ -1,0 +1,94 @@
+prompt --application/shared_components/user_interface/lovs/lov_month
+begin
+--   Manifest
+--     LOV_MONTH
+--   Manifest End
+wwv_flow_api.component_begin (
+ p_version_yyyy_mm_dd=>'2021.10.15'
+,p_release=>'21.2.0'
+,p_default_workspace_id=>4067168939102942
+,p_default_application_id=>651
+,p_default_id_offset=>18352867387262325
+,p_default_owner=>'EBIZAPEXAPP'
+);
+wwv_flow_api.create_list_of_values(
+ p_id=>wwv_flow_api.id(6765346016873115)
+,p_lov_name=>'LOV_MONTH'
+,p_lov_query=>'.'||wwv_flow_api.id(6765346016873115)||'.'
+,p_location=>'STATIC'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6765046533873114)
+,p_lov_disp_sequence=>1
+,p_lov_disp_value=>'January'
+,p_lov_return_value=>'January'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6764638180873113)
+,p_lov_disp_sequence=>2
+,p_lov_disp_value=>'February'
+,p_lov_return_value=>'February'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6764308420873113)
+,p_lov_disp_sequence=>3
+,p_lov_disp_value=>'March'
+,p_lov_return_value=>'March'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6763861035873113)
+,p_lov_disp_sequence=>4
+,p_lov_disp_value=>'April'
+,p_lov_return_value=>'April'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6763489110873112)
+,p_lov_disp_sequence=>5
+,p_lov_disp_value=>'May'
+,p_lov_return_value=>'May'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6763094398873112)
+,p_lov_disp_sequence=>6
+,p_lov_disp_value=>'June'
+,p_lov_return_value=>'June'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6762650251873111)
+,p_lov_disp_sequence=>7
+,p_lov_disp_value=>'July'
+,p_lov_return_value=>'July'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6762239423873111)
+,p_lov_disp_sequence=>8
+,p_lov_disp_value=>'August'
+,p_lov_return_value=>'August'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6761902463873111)
+,p_lov_disp_sequence=>9
+,p_lov_disp_value=>'September'
+,p_lov_return_value=>'September'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6761453589873110)
+,p_lov_disp_sequence=>10
+,p_lov_disp_value=>'October'
+,p_lov_return_value=>'October'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6761042175873110)
+,p_lov_disp_sequence=>11
+,p_lov_disp_value=>'November'
+,p_lov_return_value=>'November'
+);
+wwv_flow_api.create_static_lov_data(
+ p_id=>wwv_flow_api.id(6760654178873110)
+,p_lov_disp_sequence=>12
+,p_lov_disp_value=>'Decmber'
+,p_lov_return_value=>'December'
+);
+wwv_flow_api.component_end;
+end;
+/
